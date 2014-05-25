@@ -26,7 +26,7 @@ var backTop = {
                 backTopDiv = t.buildRocketStyleIcon(obj);
                 break;
             default:
-                backTopDiv = t.buildArrowStyleIcon(obj);
+                backTopDiv = t.buildSimpleStyleIcon(obj);
                 break;
         }
         backTopDiv.attr("title", "返回顶部");
